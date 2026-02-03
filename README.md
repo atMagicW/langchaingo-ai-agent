@@ -1,6 +1,20 @@
 # langchaingo-agent
 
-一个基于 Go 的 AI Agent 平台示例，包含 Agent 状态机、调度器（Orchestrator）、LLM 抽象、RAG、上下文管理等核心模块。
+[//]: # (一个基于 Go 的 AI Agent 平台示例，包含 Agent 状态机、调度器（Orchestrator）、LLM 抽象、RAG、上下文管理等核心模块。)
+
+这是一个面向多任务 AI Agent 的后端调度平台，
+负责 Agent 状态管理、LLM 推理编排、任务执行与失败恢复
+
+## 核心特性
+- 显式 Agent 状态机
+- LLM 推理工程化（超时 / fallback）
+- Context 管理与 RAG 扩展能力
+- 可恢复、可观测的 Agent 执行链路
+
+## 适用场景
+- 多轮对话 Agent
+- 工具调用型 Agent
+- 复杂任务分解与执行
 
 ## 项目结构
 
